@@ -3,10 +3,6 @@
 <head>
   <meta charset="utf-8" />
   <title>Exercice 7</title>
-  <script
-  			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  			  crossorigin="anonymous"></script>
 </head>
   <ul>
     <li>Html</li>
@@ -23,8 +19,13 @@
     <li>Symfony</li>
     <li class="remove">Laravel</li>
   </ol>
-<script>
-  $('.remove').remove();
-</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+  <script>
+  $(function () {
+    $('.remove').remove();
+  });
+  </script>
 </body>
 </html>
